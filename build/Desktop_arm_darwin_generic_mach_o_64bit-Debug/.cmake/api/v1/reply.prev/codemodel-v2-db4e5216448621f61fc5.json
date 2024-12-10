@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-16b12ef64eeabdf4aaa6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "StreetplannerWorking",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "StreetplannerWorking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StreetplannerWorking-Debug-5bdb5aee9086e44ef26d.json",
+					"name" : "StreetplannerWorking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StreetplannerWorking_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StreetplannerWorking_autogen-Debug-97b5e7250a27d67e3ee6.json",
+					"name" : "StreetplannerWorking_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StreetplannerWorking_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StreetplannerWorking_autogen_timestamp_deps-Debug-5f5e5fda259553520d26.json",
+					"name" : "StreetplannerWorking_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/marcd/StreetplannerWorking/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug",
+		"source" : "/Users/marcd/StreetplannerWorking"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
