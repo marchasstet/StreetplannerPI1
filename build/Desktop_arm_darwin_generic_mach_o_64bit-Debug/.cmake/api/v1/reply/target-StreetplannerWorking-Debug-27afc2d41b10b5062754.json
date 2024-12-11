@@ -72,13 +72,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 91,
+				"line" : 92,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 74,
+				"line" : 75,
 				"parent" : 0
 			},
 			{
@@ -249,7 +249,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics"
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk -fcolor-diagnostics"
 				}
 			],
 			"defines" : 
@@ -353,11 +353,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "StreetplannerWorking_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "StreetplannerWorking_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "StreetplannerWorking_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "StreetplannerWorking::@6890427a1f51a3e7e1df",
@@ -500,10 +500,10 @@
 				32,
 				34,
 				36,
-				43,
 				44,
 				45,
-				46
+				46,
+				47
 			]
 		},
 		{
@@ -519,14 +519,15 @@
 				40,
 				41,
 				42,
-				47
+				43,
+				48
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				48
+				49
 			]
 		}
 	],
@@ -764,6 +765,11 @@
 		{
 			"backtrace" : 4,
 			"path" : "txtFiles/street_file_zusatz.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "txtFiles/street_file.txt",
 			"sourceGroupIndex" : 2
 		},
 		{

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 project(StreetplannerWorking VERSION 0.1 LANGUAGES CXX)
-
+set(CMAKE_OSX_SYSROOT /Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)

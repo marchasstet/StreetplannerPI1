@@ -6,7 +6,7 @@ CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
 CXX_INCLUDES = -I/Users/marcd/StreetplannerWorking/build/Desktop_arm_darwin_generic_mach_o_64bit-Debug/StreetplannerWorking_autogen/include -isystem /Users/marcd/Qt/6.6.3/macos/lib/QtCore.framework/Headers -iframework /Users/marcd/Qt/6.6.3/macos/lib -isystem /Users/marcd/Qt/6.6.3/macos/mkspecs/macx-clang -isystem /Users/marcd/Qt/6.6.3/macos/include -isystem /Users/marcd/Qt/6.6.3/macos/lib/QtWidgets.framework/Headers -isystem /Users/marcd/Qt/6.6.3/macos/lib/QtGui.framework/Headers
 
-CXX_FLAGSarm64 = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+CXX_FLAGSarm64 = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
 
-CXX_FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+CXX_FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
 
